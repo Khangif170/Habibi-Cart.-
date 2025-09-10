@@ -92,3 +92,17 @@ header {
   background: #000;
   color: var(--muted);
     }
+.product-gallery {
+  display: flex;
+  gap: 0.5rem;
+  overflow-x: auto;
+  border-radius: var(--radius);
+}
+
+.product-gallery img {
+  width: 100%;
+  max-width: 220px;
+  border-radius: var(--radius);
+  object-fit: cover;
+  flex-shrink: 0;
+  }
